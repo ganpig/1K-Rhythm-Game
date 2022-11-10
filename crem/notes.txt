@@ -1,0 +1,15 @@
+notes=[16,20,24,28]
+for i in range(32,60,4):
+    notes.extend([i,i+0.5,i+1,i+1.5])
+notes.append(60)
+for i in range(64,80,4):
+    notes.extend([i,i+0.5,i+1.5,i+2])
+for i in range(80,88,4):
+    notes.extend([i,i+0.5,i+1,i+2])
+notes.extend([88,89,90,91,92])
+for i in range(96,108,4):
+    notes.extend([i,i+0.5,i+1,i+2])
+notes.append(108)
+for i in range(112,124,4):
+    notes.extend([i,i+0.5,i+1,i+2])
+notes.append(124)
